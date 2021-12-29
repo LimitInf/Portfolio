@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang= >
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Kneady Gallery - Caleb and Layne's Portfolio</title>
+ <link rel="icon" source="">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="parallax">
+ <div class="parallax__group">
+  <div class="parallax__layer base">
+    <img src="s3_image_690224_upload_122141015_122141015.jpg" class="profile">
+   <table class="nav">
+    <tr>
+     <td onclick="location.href='portfolio.html'" class="cell1"><div class="head">Layne's Galleries</div></td>
+     <td onclick="location.href='bio.html'" class="cell1"><div class="head">Layne's Bio</div></td>
+     <td onclick="location.href='dev.html'" class="cell1"><div class="head">About The Developer</div></td>
+    </tr>
+   </table>
+   <br>
+   <br>
+   <table class="gallery">
+    <tr>
+	 <td class="head" colspan="2">Poster Offensive</td>
+	 <br>
+	</tr>
+	<tr>
+	 <td class="cell2" onclick="location.href='Halvorsen_Layne_Portfolio_2021_20-20-1.png'"><img src="Halvorsen_Layne_Portfolio_2021_20-20-1.png"width="166px" height="219px"alt="Poster Offensive-Influenza"></td>
+	 <td class="cell2" onclick="location.href='Halvorsen_Layne_Portfolio_2021_19-19-1.png'"><img src="Halvorsen_Layne_Portfolio_2021_19-19-1.png"width="166px" height="219px"alt="Poster Offensive-Measles"></td>
+	</tr>
+   </table>
+  </div>
+  <div class="parallax__layer back">
+  </div>
+ </div>
+</div>
+
+</body>
+</html>
